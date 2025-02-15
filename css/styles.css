@@ -4,3 +4,109 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    margin-top: 43px;
+    margin-left: 20px;
+    margin-right: 21px;
+    margin-bottom: 35px;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    width: 389px;
+    height: 766px;
+}
+
+/***   Barra de menu y Notificaciones      ***/
+.section__navBox {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    width: 387px;
+    height: 231px;
+    gap: 20px;
+}
+.div__bottonNoti {
+    display: flex;
+    justify-content: space-between;
+    width: 387px;
+    height: 34px;
+}
+.img__bottonNoti {
+}
+.img__bottonNoti2 {
+}
+/*************************************************/
+
+/****  titulo de la aplicacion Find Trending Events  ****/
+.section__navBox h1 {
+    width: 265px;
+    height: 72px;
+}
+/*************************************************/
+
+/****  titulo de la aplicacion Find Trending Events  ****/
+.nav__search {
+    width: 387px;
+    height: 85px;
+}
+
+.div__search {
+    display: flex;
+    justify-content: flex-start;
+    width: 387px;
+    height: 41px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.div__searchIcons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 157px;
+    height: 17px;
+    padding: 12px;
+}
+.div__searchIcons img {
+    margin-right: 8px;
+}
+.img__filtro {
+    width: 20px;
+    height: 20px;
+    margin-left: 195px;
+    margin-top: 10px;
+}
+
+
+.div__menuCarrucel {
+    display: flex;
+    flex-direction: row;
+    width: 391px;
+    height: 28px;
+    overflow-x: scroll;
+    position: relative;
+    top: 16px;
+    
+    & > .carousel-item {
+      display: flex;
+      width: 112px;
+      height: 28px;
+      flex: 1;
+      flex-grow: 1;
+      min-width: 30%;
+      margin: 0 5px;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 8px;
+    }
+}
+.carousel-item:nth-child(1) {background-color: #EDE9FF;}
+.carousel-item:nth-child(2) {background-color: #FFF5D7;}
+.carousel-item:nth-child(3) {background-color: #FFECEC;}
+.carousel-item:nth-child(4) {background-color: #E4FFEA;}
+.carousel-item:nth-child(5) {background-color: #B3D8A8;}
+.carousel-item {
+}
+.carousel-item p {
+    font-size: 12px;
+}
