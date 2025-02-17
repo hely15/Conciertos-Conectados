@@ -153,6 +153,7 @@ body {
     height: 200px;
     overflow-x: scroll;
     scrollbar-width: none;
+    width: max-content;
 
     
     & > .carousel-item-Events {
@@ -295,5 +296,134 @@ body {
 
 
 
+.div__titleallEvents {
+    display: flex;
+    width: 387px;
+    height: 17px;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+.div__titleallEvents h1 {
+    font-size: 14px;
+}
+.div__titleallEvents p {
+    font-size: 12px;
+}
 
 
+.section__allEvents-Box {
+    position: absolute;
+    width: 349px;
+    height: 236px;
+    top: 550px;
+}
+
+.div__allCardEvents {
+    width: 348px;
+    height: 203px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+.div__infEvent {
+    width: 119px;
+    height: 48px;
+    left: 20px;
+    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+
+    h1{
+        font-size: 10px;
+    }
+}
+.div__valEvent {
+    display: flex;
+    width: 91px;
+    height: 16px;
+    top: 222px;
+    left: 15px;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    p{
+        font-size: 12px;
+    }
+}
+.div__locationTexCard {
+    width: 104px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+
+
+    img {
+        width: 9px;
+        height: 11px;
+    }
+
+    p {
+        width: 87px;
+        height: 12px;
+        font-size: 10px;
+    }
+}
+.div__calendaryTextCard {
+    width: 80px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 10px;
+        height: 11px;
+    }
+
+    p {
+        width: 62px;
+        height: 12px;
+        font-size: 10px;
+    }
+}
+.img__fontCard {
+    width: 166px;
+    height: 203px;
+}
+.img__banerEvent {
+    width: 150px;
+    height: 102px;
+    left: 20px;
+    border-radius: 8px;
+}
+.div__cardEvent {
+    width: 166px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    background-color: white;
+    padding-top: 8px;
+    padding-left: 8px;
+    box-shadow: 0px 0px 10px 9px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    gap: 9px;
+}
+.div__cardEvent-2 {
+    width: 166px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    background-color: white;
+    padding-top: 8px;
+    padding-left: 8px;
+    box-shadow: 0px 0px 10px 9px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    gap: 9px;
+}
