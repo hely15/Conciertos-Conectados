@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+p {
+    font-family: "Inter_18pt-Medium";
+}
+
+h1 {
+   font-family: "Inter_18pt-SemiBold";
+}
+
+#pF {
+    color: #706D6D;
+}
+.hrLine {
+    color: #675E5E;
+}
+
 .bacground {
     width: 100vw;
     height: 100vh;
@@ -161,5 +176,5 @@
     position: absolute;
     font-size: 12px;
     top: 505px;
-    left: 25%;
+    left: 20%;
 }
