@@ -9,8 +9,8 @@
 <body>
 
     <div class="div__bottonNav">
-        <img class="img__bottonNoti" src="../storage/img/FlexHaciaAtras.png">
-        <img class="img__bottonNoti2" src="../storage/img/VectorTresPuntos.png">
+        <img class="img__bottonAtras" src="../storage/img/FlexHaciaAtras.png">
+        <img class="img__bottonPuntos" src="../storage/img/VectorTresPuntos.png">
     </div>
 
 
@@ -21,7 +21,7 @@
             <h1>Coldplay : Music of the Spheres</h1>
             <div class="div__locationInfo ">
                 <img src="../storage/img/VectorLocation.png">
-                <p>Gelora Bung Karno Stadium, Jakarta</p>
+                <p>Gelora Bung Karno Stadium</p>
             </div>
             <div class="div__calendariInfo">
                 <img src="../storage/img/VectorCalenda.png">
@@ -46,11 +46,10 @@
           <p>Esta es la tarjeta con la información adicional que aparece al hacer clic en el enlace.</p>
         </div>
     </section>
-
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCShCGgXTRWYT4xVu-j6O31Vuq8GZgJ9Fg&callback=initMap" async defer></script>
     <script>
         function initMap() {
-          const location = { lat: 36.1189, lng: -115.1537 }; // Coordenadas de ejemplo
+          const location = { lat: 7.061581144031366, lng: -73.12599878650744 }; // Coordenadas de ejemplo
           const map = new google.maps.Map(document.getElementById("map"), {
             zoom: 15,
             center: location,
@@ -62,11 +61,9 @@
           });
         }
     </script>
-
     <div class="div__mapa">
         <div id="map"></div>
     </div>
- 
     <footer class="footer__buy">
         <div class="div__eventVal">
             <p>Start from</p>
@@ -74,11 +71,11 @@
         </div>
         <div class="div__eventBuy">
             <button>
-                Buy Ticket
+                <a href="#">
+                     Buy Ticket
+                </a>
             </button>
         </div>
     </footer>
-
-
 </body>
 </html>

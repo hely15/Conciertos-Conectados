@@ -1,3 +1,26 @@
 :root {
-    --color-1: #FFFFFF;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-purple-dark: #2D264B;
+    --color-purple: #761CBC;
+    --color-blue: #0092FC;
+    --color-gray: #706D6D;
+    --color-white-transparent: rgba(255, 255, 255, 0.2); /* 20% de opacidad */
+}
+
+@font-face {
+    font-family: "Inter_18pt-SemiBold";
+    src: url(../storage/font/Inter/static/Inter_28pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Regular";
+    src: url(../storage/font/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Medium";
+    src: url(../storage/font/Inter/static/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url(../storage/font/DM_Sans/static/DMSans-Regular.ttf);
 }
