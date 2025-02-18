@@ -8,6 +8,77 @@
 </head>
 <body>
 
+    <div class="div__bottonNav">
+        <img class="img__bottonNoti" src="../storage/img/FlexHaciaAtras.png">
+        <img class="img__bottonNoti2" src="../storage/img/VectorTresPuntos.png">
+    </div>
+
+
+    <img class="img__baner" src="../storage/img/coldplay-750x375.jpg">
+
+    <section class="section__cardInfo">
+        <div class="div__infoEvent">
+            <h1>Coldplay : Music of the Spheres</h1>
+            <div class="div__locationInfo ">
+                <img src="../storage/img/VectorLocation.png">
+                <p>Gelora Bung Karno Stadium, Jakarta</p>
+            </div>
+            <div class="div__calendariInfo">
+                <img src="../storage/img/VectorCalenda.png">
+                <p>November 15 2023</p>
+            </div>
+        </div>
+        <div class="div__infParticipes">
+            <img src="../storage/img/participesGrup.png">
+            <p>50K+ Participants</p>
+        </div>
+    </section>
+
+    <section class="section__description">
+        <h1>Description</h1>
+        <p class="p__description">Integer id augue iaculis, iaculis orci ut, blandit quam. Donec in elit auctor, 
+        finibus quam in, phar. Proin id ligula dictum, covalis enim ut, facilisis massa.
+        Mauris a nisi ut sapien blandit imperdi. Interdum et malesuada fames ac ante ipsum primis 
+        in faucibs. Sed posuere egestas nunc ut tempus. Fu ipsum dolor sit amet.<label for="info-toggle">Read More..</label></p>
+        <input type="checkbox" id="info-toggle">
+        <label class="modal-overlay" for="info-toggle"></label>
+        <div class="info-box">
+          <p>Esta es la tarjeta con la información adicional que aparece al hacer clic en el enlace.</p>
+        </div>
+    </section>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCShCGgXTRWYT4xVu-j6O31Vuq8GZgJ9Fg&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+          const location = { lat: 36.1189, lng: -115.1537 }; // Coordenadas de ejemplo
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 15,
+            center: location,
+          });
+          new google.maps.Marker({
+            position: location,
+            map: map,
+            title: "Gelora Bung Karno Stadium, Jakarta",
+          });
+        }
+    </script>
+
+    <div class="div__mapa">
+        <div id="map"></div>
+    </div>
+ 
+    <footer class="footer__buy">
+        <div class="div__eventVal">
+            <p>Start from</p>
+            <h1>IDR1.100.000</h1>
+        </div>
+        <div class="div__eventBuy">
+            <button>
+                Buy Ticket
+            </button>
+        </div>
+    </footer>
+
 
 </body>
 </html>

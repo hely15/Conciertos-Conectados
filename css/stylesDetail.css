@@ -4,3 +4,299 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.img__baner {
+    width: 100svw;
+    height: 316px;
+}
+
+.section__cardInfo {
+    width: 346px;
+    height: 140px;
+    gap: 16px;
+    position: absolute;
+    top: 246px;
+    left: 5.5svh;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 400px) {
+    .section__cardInfo {
+        left: 3.5svh;
+    }
+}
+
+.div__infoEvent {
+    width: 224px;
+    height: 59px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 18.5px;
+
+    h1 {
+        width: 214px;
+        height: 17px;
+        font-size: 14px;
+    }
+}
+
+.div__locationInfo {
+    width: 214px;
+    height: 15px;
+    display: flex;
+    gap: 8px;
+
+    img {
+        width: 10px;
+        height: 12px;
+    }
+
+    p {
+        width: 206px;
+        height: 15px;
+        font-size: 12px;
+    }
+}
+
+.div__calendariInfo {
+    width: 128px;
+    height: 15px;
+    display: flex;
+    gap: 8px;
+
+    img {
+        width: 11px;
+        height: 12px;
+    }
+
+    p {
+        width: 109px;
+        height: 15px;
+        font-size: 12px;
+    }
+}
+
+.div__infParticipes {
+    width: 190px;
+    height: 28px;
+    display: flex;
+    padding-left: 20px;
+    gap: 8px;
+    padding-top: 25.5px;
+    align-items: center;
+
+    img {
+        width: 60px;
+        height: 28px;
+    }
+
+    p {
+        width: 103px;
+        height: 15px;
+        font-size: 12px;
+    }
+}
+
+.section__description {
+    width: 346px;
+    height: 133px;
+    top: 93px;
+    left: 44px;
+    right: 20px;
+    gap: 8px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    h1 {
+        width: 77px;
+        height: 17px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 400px) {
+    .section__description {
+        left: 28px;
+    }
+}
+.p__description {
+    width: 346px;
+    height: 108px;
+    font-size: 12px;
+
+}
+
+
+
+#info-toggle {
+    display: none;
+  }
+
+  /* Estilo del enlace */
+  label {
+    color: #0092FC;
+    cursor: pointer;
+}
+
+  /* Fondo semi-transparente detrás de la tarjeta */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+  /* Estilo de la tarjeta */
+  .info-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+  /* Mostrar la tarjeta y el fondo al hacer clic */
+  #info-toggle:checked ~ .modal-overlay,
+  #info-toggle:checked ~ .info-box {
+    display: block;
+}
+.div__mapa {
+    width: 346px;
+    height: 214px;
+    position: absolute;
+    top: 550px;
+    left: 44px;
+    right: 22px;
+}
+@media (max-width: 400px) {
+    .div__mapa {
+        left: 22px;
+    }
+    
+}
+
+    /* Asegura que el mapa sea completamente responsivo */
+#map {
+    width: 346px; 
+    height: 212px; 
+    max-height: 400px;  
+    border-radius: 8px; 
+}
+@media (max-width: 400px) {
+    #map {
+        width: 347px; 
+        height: 200px;
+    }
+}
+
+
+.footer__buy {
+    width: 100%;
+    height: 66px;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 0px 9px 14px rgba(0,0,0,0.1);
+    top: 91%;
+}
+.div__eventVal {
+    width: 102px;
+    height: 35px;
+    padding-top: 16px;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+
+    p{
+        width: 48px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    h1 {
+        width: 102px;
+        height: 19px;
+        font-size: 16px;
+    }
+}
+.div__eventBuy {
+    width: 110px;
+    height: 34px;
+    position: absolute;
+    top: 16px;
+    left: 300px;
+
+    button {
+        width: 110px;
+        height: 34px;    
+        border-radius: 20px;   
+        border: none;
+        color: white;
+        background-color: #761CBC;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer__buy {
+        width: 100%;
+        height: 66px;
+        background-color: white;
+        position: fixed;
+        box-shadow: 0px 0px 9px 14px rgba(0,0,0,0.1);
+        top: 90%;
+    }
+    .div__eventVal {
+        width: 102px;
+        height: 35px;
+        padding-top: 16px;
+        padding-left: 22px;
+        display: flex;
+        flex-direction: column;
+    
+        p{
+            width: 48px;
+            height: 12px;
+            font-size: 10px;
+        }
+    
+        h1 {
+            width: 102px;
+            height: 19px;
+            font-size: 16px;
+        }
+    }
+    .div__eventBuy {
+        width: 110px;
+        height: 34px;
+        position: absolute;
+        top: 16px;
+        left: 258px;
+    
+        button {
+            width: 110px;
+            height: 34px;    
+            border-radius: 20px;   
+            border: none;
+            color: white;
+            background-color: #761CBC;
+        }
+    }
+}
