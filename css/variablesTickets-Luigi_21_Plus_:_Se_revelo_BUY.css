@@ -1,0 +1,17 @@
+:root {
+    --color-1: #FFFFFF;
+    --ColorFond: linear-gradient(165deg, rgba(145,181,253,1) 0%, rgba(240,221,255,1) 100%);
+}
+
+@font-face {
+    font-family: "Inter_18pt-SemiBold";
+    src: url(../storage/font/Inter/static/Inter_18pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Regular";
+    src: url(../storage/font/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Medium";
+    src: url(../storage/font/Inter/static/Inter_18pt-Medium.ttf);
+}
