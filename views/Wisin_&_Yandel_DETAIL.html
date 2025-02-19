@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesWisin_&_Yandel_DETAIL.css">
+    <title>Detail</title>
+</head>
+<body>
+
+    <div class="div__bottonNav">
+        <img class="img__bottonAtras" src="../storage/img/FlexHaciaAtras.png" onclick="window.location.href='index.html'">
+        <img class="img__bottonPuntos" src="../storage/img/VectorTresPuntos.png">
+    </div>
+
+
+    <img class="img__baner" src="../storage/img/banner-wisin-y-yandel.jpg">
+
+    <section class="section__cardInfo">
+        <div class="div__infoEvent">
+            <h1>Wisin y Yandel</h1>
+            <div class="div__locationInfo ">
+                <img src="../storage/img/VectorLocation.png">
+                <p>Gelora Bung Karno Stadium</p>
+            </div>
+            <div class="div__calendariInfo">
+                <img src="../storage/img/VectorCalenda.png">
+                <p>November 24 2025</p>
+            </div>
+        </div>
+        <div class="div__infParticipes">
+            <img src="../storage/img/participesGrup.png">
+            <p>50K+ Participants</p>
+        </div>
+    </section>
+
+    <section class="section__description">
+        <h1>Description</h1>
+        <p class="p__description">Integer id augue iaculis, iaculis orci ut, blandit quam. Donec in elit auctor, 
+        finibus quam in, phar. Proin id ligula dictum, covalis enim ut, facilisis massa.
+        Mauris a nisi ut sapien blandit imperdi. Interdum et malesuada fames ac ante ipsum primis 
+        in faucibs. Sed posuere egestas nunc ut tempus. Fu ipsum dolor sit amet.<label for="info-toggle">Read More..</label></p>
+        <input type="checkbox" id="info-toggle">
+        <label class="modal-overlay" for="info-toggle"></label>
+        <div class="info-box">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi dolores magni possimus alias a amet itaque facilis, explicabo excepturi nihil aperiam corporis perferendis nulla vel eveniet dolor numquam eaque quibusdam!</p>
+        </div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCShCGgXTRWYT4xVu-j6O31Vuq8GZgJ9Fg&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+          const location = { lat: 7.061581144031366, lng: -73.12599878650744 }; // Coordenadas de ejemplo
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 15,
+            center: location,
+          });
+          new google.maps.Marker({
+            position: location,
+            map: map,
+            title: "Gelora Bung Karno Stadium, Jakarta",
+          });
+        }
+    </script>
+    <div class="div__mapa">
+        <div id="map"></div>
+    </div>
+    <footer class="footer__buy">
+        <div class="div__eventVal">
+            <p>Start from</p>
+            <h1>IDR1.100.000</h1>
+        </div>
+        <div class="div__eventBuy">
+            <button>
+                <a href="Wisin_&_Yandel_BUY.html">
+                     Buy Ticket
+                </a>
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
