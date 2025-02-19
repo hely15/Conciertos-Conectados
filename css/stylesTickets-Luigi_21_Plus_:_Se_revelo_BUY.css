@@ -1,4 +1,4 @@
-@import url(../css/variablesTickets.css);
+@import url(../css/variablesTickets-Luigi_21_Plus_:_Se_revelo_BUY.css);
 *{
     margin: 0;
     padding: 0;
@@ -177,4 +177,7 @@ h1 {
     font-size: 12px;
     top: 505px;
     left: 20%;
+}
+.img__baner {
+    border-radius: 25px;
 }
