@@ -313,13 +313,12 @@ body {
 
 .section__allEvents-Box {
     position: absolute;
-    width: 349px;
+    width: 90%;
     height: 236px;
     top: 550px;
 }
 
 .div__allCardEvents {
-    width: 348px;
     height: 203px;
     display: flex;
     flex-direction: row;
@@ -330,7 +329,7 @@ body {
 
 
 .div__infEvent {
-    width: 119px;
+    width: 140px;
     height: 48px;
     left: 20px;
     gap: 6px;
@@ -345,10 +344,8 @@ body {
     display: flex;
     width: 91px;
     height: 16px;
-    top: 222px;
-    left: 15px;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 2px;
 
     p{
         font-size: 12px;
@@ -426,4 +423,11 @@ body {
     box-shadow: 0px 0px 10px 9px rgba(0,0,0,0.1);
     border-radius: 8px;
     gap: 9px;
+}
+
+.section__allEvents-Box-2 {
+    position: absolute;
+    width: 90%;
+    height: 236px;
+    top: 790px;
 }
