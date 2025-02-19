@@ -21,7 +21,7 @@
 }
 
 .img__baner {
-    width: 59svh;
+    width: 100%;
     height: 316px;
 }
 @media (max-width: 360px) {
@@ -47,9 +47,13 @@
 
 @media (max-width: 400px) {
     .section__cardInfo {
-        left: 3.5svh;
+        left: 4svh;
+    }
+    .section__cardInfo {
+        width: 322px;
     }
 }
+
 
 .div__infoEvent {
     width: 224px;
