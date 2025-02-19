@@ -55,6 +55,7 @@ h1 {
     flex-direction: row;
     overflow-x: scroll;
     height: 555px;
+    width: 100%;
     position: absolute;
     top: 115px;
     left: 22px;

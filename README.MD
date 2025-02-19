@@ -45,7 +45,7 @@ Conciertos Conectados aborda estos problemas mediante una interfaz amigable y ac
 
 ## Alerta Importante
 
-**Aviso:** Esta aplicación web solo está optimizada para visualización en dispositivos con un ancho de 425px y orientación vertical.
+**Aviso:** Esta aplicación web solo está optimizada para visualización en dispositivos con un ancho de 375px y orientación vertical.
 
 ---
 
